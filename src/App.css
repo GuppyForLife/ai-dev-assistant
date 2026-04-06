@@ -1,0 +1,86 @@
+body {
+  color: #e2e8f0;
+  background-color: #020617;
+}
+
+button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property:
+    background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #fff;
+  background-color: #15883e;
+  height: 48px;
+  margin-left: auto;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: #1db954;
+}
+
+label {
+  color: #94a3b8;
+}
+
+textarea {
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #1e293b;
+  background-color: #0f172a;
+  resize: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+section {
+  margin-top: 1rem;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  min-height: 9rem;
+  background-color: #0f172a;
+  padding: 1rem;
+}
+
+pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.text-area-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
