@@ -60,9 +60,9 @@ npm run dev
 ## Usage
 
 1. Type a question or prompt in the input textarea.
-2 .Click Submit.
+2. Click Submit.
 3. The response panel will show “Thinking…” then display the answer.
-4 .Text formatting is preserved for multi-line responses or code snippets.
+4. Text formatting is preserved for multi-line responses or code snippets.
 
 ## Future Improvements
 - Connect frontend to a real AI backend (NestJS + API)
