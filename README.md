@@ -70,4 +70,3 @@ npm run dev
 - Expand input validation
 - Mobile-friendly / responsive design
 - Optional persistent chat history
-````
