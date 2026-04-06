@@ -44,14 +44,16 @@ _(Backend integration with NestJS planned in future iterations)_
 ````bash
 git clone https://github.com/GuppyForLife/ai-dev-assistant.git
 cd ai-dev-assistant
+````
 
 2. **Install Dependencies**
-```bash
+````bash
 npm install
-
+````
 3. **Start Development Server**
-```bash
+````bash
 npm run dev
+````
 
 ---
 
